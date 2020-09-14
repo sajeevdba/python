@@ -1,0 +1,10 @@
+
+::List Comprehension::
+print([[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if sum([i,j,k]) != n])
+
+
+:: Get values in array convert to list and find 2nd max value::
+list=list(set(map(int,raw_input().strip().split(" "))))
+list.sort(reverse=True)
+print list[1]
+
